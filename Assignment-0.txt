@@ -1,0 +1,17 @@
+a=int(input("Enter first no :"))
+b=int(input("Enter Second no :"))
+
+print("Enter tha operation which you want to perform:\n")
+print("1.Additon")
+print("2.Subtraction")
+print("3.Multiplication")
+print("4.Division")
+c=int(input("Enter the no which you want to perform (1/2/3/4):"))
+if c == 1:
+    print(a+b)
+elif c == 2:
+    print(a-b)
+elif c == 3:
+    print(a*b)
+elif c == 4:
+    print(a/b)
